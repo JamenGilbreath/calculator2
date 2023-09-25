@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 
 class MovingBall extends Component {
@@ -63,7 +63,7 @@ class MovingBall extends Component {
   }
 }
 
-ReactDOM.render(<MovingBall />, document.getElementById('root'));
+ReactDOM.render(document.getElementById('root'));
 
 
 
